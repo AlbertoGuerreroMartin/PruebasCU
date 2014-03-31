@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2D320A18E9B16300DE29EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320918E9B16300DE29EE /* Foundation.framework */; };
+		EC2D320C18E9B16300DE29EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320B18E9B16300DE29EE /* CoreGraphics.framework */; };
+		EC2D320E18E9B16300DE29EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320D18E9B16300DE29EE /* UIKit.framework */; };
+		EC2D321418E9B16300DE29EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC2D321218E9B16300DE29EE /* InfoPlist.strings */; };
+		EC2D321618E9B16300DE29EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D321518E9B16300DE29EE /* main.m */; };
+		EC2D321A18E9B16300DE29EE /* PCUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D321918E9B16300DE29EE /* PCUAppDelegate.m */; };
+		EC2D321D18E9B16300DE29EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D321B18E9B16300DE29EE /* Main.storyboard */; };
+		EC2D322018E9B16300DE29EE /* PCUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D321F18E9B16300DE29EE /* PCUViewController.m */; };
+		EC2D322218E9B16300DE29EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D322118E9B16300DE29EE /* Images.xcassets */; };
+		EC2D322918E9B16300DE29EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D322818E9B16300DE29EE /* XCTest.framework */; };
+		EC2D322A18E9B16300DE29EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320918E9B16300DE29EE /* Foundation.framework */; };
+		EC2D322B18E9B16300DE29EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320D18E9B16300DE29EE /* UIKit.framework */; };
+		EC2D323318E9B16300DE29EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC2D323118E9B16300DE29EE /* InfoPlist.strings */; };
+		EC2D323518E9B16300DE29EE /* PruebasCUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D323418E9B16300DE29EE /* PruebasCUTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2D322C18E9B16300DE29EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2D31FE18E9B16200DE29EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2D320518E9B16200DE29EE;
+			remoteInfo = PruebasCU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2D320618E9B16300DE29EE /* PruebasCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D320918E9B16300DE29EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC2D320B18E9B16300DE29EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC2D320D18E9B16300DE29EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC2D321118E9B16300DE29EE /* PruebasCU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PruebasCU-Info.plist"; sourceTree = "<group>"; };
+		EC2D321318E9B16300DE29EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC2D321518E9B16300DE29EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2D321718E9B16300DE29EE /* PruebasCU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PruebasCU-Prefix.pch"; sourceTree = "<group>"; };
+		EC2D321818E9B16300DE29EE /* PCUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCUAppDelegate.h; sourceTree = "<group>"; };
+		EC2D321918E9B16300DE29EE /* PCUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCUAppDelegate.m; sourceTree = "<group>"; };
+		EC2D321C18E9B16300DE29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2D321E18E9B16300DE29EE /* PCUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCUViewController.h; sourceTree = "<group>"; };
+		EC2D321F18E9B16300DE29EE /* PCUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCUViewController.m; sourceTree = "<group>"; };
+		EC2D322118E9B16300DE29EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC2D322718E9B16300DE29EE /* PruebasCUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebasCUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D322818E9B16300DE29EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC2D323018E9B16300DE29EE /* PruebasCUTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PruebasCUTests-Info.plist"; sourceTree = "<group>"; };
+		EC2D323218E9B16300DE29EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC2D323418E9B16300DE29EE /* PruebasCUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebasCUTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2D320318E9B16200DE29EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D320C18E9B16300DE29EE /* CoreGraphics.framework in Frameworks */,
+				EC2D320E18E9B16300DE29EE /* UIKit.framework in Frameworks */,
+				EC2D320A18E9B16300DE29EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D322418E9B16300DE29EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D322918E9B16300DE29EE /* XCTest.framework in Frameworks */,
+				EC2D322B18E9B16300DE29EE /* UIKit.framework in Frameworks */,
+				EC2D322A18E9B16300DE29EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2D31FD18E9B16200DE29EE = {
+			isa = PBXGroup;
+			children = (
+				EC2D320F18E9B16300DE29EE /* PruebasCU */,
+				EC2D322E18E9B16300DE29EE /* PruebasCUTests */,
+				EC2D320818E9B16300DE29EE /* Frameworks */,
+				EC2D320718E9B16300DE29EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2D320718E9B16300DE29EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D320618E9B16300DE29EE /* PruebasCU.app */,
+				EC2D322718E9B16300DE29EE /* PruebasCUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2D320818E9B16300DE29EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D320918E9B16300DE29EE /* Foundation.framework */,
+				EC2D320B18E9B16300DE29EE /* CoreGraphics.framework */,
+				EC2D320D18E9B16300DE29EE /* UIKit.framework */,
+				EC2D322818E9B16300DE29EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2D320F18E9B16300DE29EE /* PruebasCU */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D321818E9B16300DE29EE /* PCUAppDelegate.h */,
+				EC2D321918E9B16300DE29EE /* PCUAppDelegate.m */,
+				EC2D321B18E9B16300DE29EE /* Main.storyboard */,
+				EC2D321E18E9B16300DE29EE /* PCUViewController.h */,
+				EC2D321F18E9B16300DE29EE /* PCUViewController.m */,
+				EC2D322118E9B16300DE29EE /* Images.xcassets */,
+				EC2D321018E9B16300DE29EE /* Supporting Files */,
+			);
+			path = PruebasCU;
+			sourceTree = "<group>";
+		};
+		EC2D321018E9B16300DE29EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D321118E9B16300DE29EE /* PruebasCU-Info.plist */,
+				EC2D321218E9B16300DE29EE /* InfoPlist.strings */,
+				EC2D321518E9B16300DE29EE /* main.m */,
+				EC2D321718E9B16300DE29EE /* PruebasCU-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC2D322E18E9B16300DE29EE /* PruebasCUTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D323418E9B16300DE29EE /* PruebasCUTests.m */,
+				EC2D322F18E9B16300DE29EE /* Supporting Files */,
+			);
+			path = PruebasCUTests;
+			sourceTree = "<group>";
+		};
+		EC2D322F18E9B16300DE29EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D323018E9B16300DE29EE /* PruebasCUTests-Info.plist */,
+				EC2D323118E9B16300DE29EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2D320518E9B16200DE29EE /* PruebasCU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D323818E9B16300DE29EE /* Build configuration list for PBXNativeTarget "PruebasCU" */;
+			buildPhases = (
+				EC2D320218E9B16200DE29EE /* Sources */,
+				EC2D320318E9B16200DE29EE /* Frameworks */,
+				EC2D320418E9B16200DE29EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PruebasCU;
+			productName = PruebasCU;
+			productReference = EC2D320618E9B16300DE29EE /* PruebasCU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2D322618E9B16300DE29EE /* PruebasCUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2D323B18E9B16300DE29EE /* Build configuration list for PBXNativeTarget "PruebasCUTests" */;
+			buildPhases = (
+				EC2D322318E9B16300DE29EE /* Sources */,
+				EC2D322418E9B16300DE29EE /* Frameworks */,
+				EC2D322518E9B16300DE29EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2D322D18E9B16300DE29EE /* PBXTargetDependency */,
+			);
+			name = PruebasCUTests;
+			productName = PruebasCUTests;
+			productReference = EC2D322718E9B16300DE29EE /* PruebasCUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2D31FE18E9B16200DE29EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PCU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = self.edu;
+				TargetAttributes = {
+					EC2D322618E9B16300DE29EE = {
+						TestTargetID = EC2D320518E9B16200DE29EE;
+					};
+				};
+			};
+			buildConfigurationList = EC2D320118E9B16200DE29EE /* Build configuration list for PBXProject "PruebasCU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2D31FD18E9B16200DE29EE;
+			productRefGroup = EC2D320718E9B16300DE29EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2D320518E9B16200DE29EE /* PruebasCU */,
+				EC2D322618E9B16300DE29EE /* PruebasCUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2D320418E9B16200DE29EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D322218E9B16300DE29EE /* Images.xcassets in Resources */,
+				EC2D321418E9B16300DE29EE /* InfoPlist.strings in Resources */,
+				EC2D321D18E9B16300DE29EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D322518E9B16300DE29EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D323318E9B16300DE29EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2D320218E9B16200DE29EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D321618E9B16300DE29EE /* main.m in Sources */,
+				EC2D321A18E9B16300DE29EE /* PCUAppDelegate.m in Sources */,
+				EC2D322018E9B16300DE29EE /* PCUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2D322318E9B16300DE29EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2D323518E9B16300DE29EE /* PruebasCUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2D322D18E9B16300DE29EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2D320518E9B16200DE29EE /* PruebasCU */;
+			targetProxy = EC2D322C18E9B16300DE29EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2D321218E9B16300DE29EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D321318E9B16300DE29EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC2D321B18E9B16300DE29EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D321C18E9B16300DE29EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2D323118E9B16300DE29EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2D323218E9B16300DE29EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2D323618E9B16300DE29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2D323718E9B16300DE29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2D323918E9B16300DE29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PruebasCU/PruebasCU-Prefix.pch";
+				INFOPLIST_FILE = "PruebasCU/PruebasCU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC2D323A18E9B16300DE29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PruebasCU/PruebasCU-Prefix.pch";
+				INFOPLIST_FILE = "PruebasCU/PruebasCU-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC2D323C18E9B16300DE29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PruebasCU.app/PruebasCU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PruebasCU/PruebasCU-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PruebasCUTests/PruebasCUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC2D323D18E9B16300DE29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PruebasCU.app/PruebasCU";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PruebasCU/PruebasCU-Prefix.pch";
+				INFOPLIST_FILE = "PruebasCUTests/PruebasCUTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2D320118E9B16200DE29EE /* Build configuration list for PBXProject "PruebasCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D323618E9B16300DE29EE /* Debug */,
+				EC2D323718E9B16300DE29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2D323818E9B16300DE29EE /* Build configuration list for PBXNativeTarget "PruebasCU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D323918E9B16300DE29EE /* Debug */,
+				EC2D323A18E9B16300DE29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2D323B18E9B16300DE29EE /* Build configuration list for PBXNativeTarget "PruebasCUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2D323C18E9B16300DE29EE /* Debug */,
+				EC2D323D18E9B16300DE29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2D31FE18E9B16200DE29EE /* Project object */;
+}
