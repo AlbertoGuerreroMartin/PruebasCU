@@ -23,6 +23,7 @@
 		EC2D324118E9B5C900DE29EE /* PCUContact.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D324018E9B5C900DE29EE /* PCUContact.m */; };
 		EC2D324518E9B83C00DE29EE /* PCUContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D324418E9B83C00DE29EE /* PCUContactsListViewController.m */; };
 		EC2D324918E9BB6C00DE29EE /* PCUContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D324818E9BB6C00DE29EE /* PCUContactCell.m */; };
+		EC2D329018E9C19A00DE29EE /* PCUContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2D328F18E9C19A00DE29EE /* PCUContactDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		EC2D324418E9B83C00DE29EE /* PCUContactsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUContactsListViewController.m; sourceTree = "<group>"; };
 		EC2D324718E9BB6C00DE29EE /* PCUContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUContactCell.h; sourceTree = "<group>"; };
 		EC2D324818E9BB6C00DE29EE /* PCUContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUContactCell.m; sourceTree = "<group>"; };
+		EC2D328E18E9C19A00DE29EE /* PCUContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUContactDetailViewController.h; sourceTree = "<group>"; };
+		EC2D328F18E9C19A00DE29EE /* PCUContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUContactDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 				EC2D324618E9BB5800DE29EE /* Views */,
 				EC2D324318E9B83C00DE29EE /* PCUContactsListViewController.h */,
 				EC2D324418E9B83C00DE29EE /* PCUContactsListViewController.m */,
+				EC2D328E18E9C19A00DE29EE /* PCUContactDetailViewController.h */,
+				EC2D328F18E9C19A00DE29EE /* PCUContactDetailViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			files = (
 				EC2D324518E9B83C00DE29EE /* PCUContactsListViewController.m in Sources */,
 				EC2D324918E9BB6C00DE29EE /* PCUContactCell.m in Sources */,
+				EC2D329018E9C19A00DE29EE /* PCUContactDetailViewController.m in Sources */,
 				EC2D321618E9B16300DE29EE /* main.m in Sources */,
 				EC2D321A18E9B16300DE29EE /* PCUAppDelegate.m in Sources */,
 				EC2D324118E9B5C900DE29EE /* PCUContact.m in Sources */,

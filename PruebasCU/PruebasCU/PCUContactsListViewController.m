@@ -7,10 +7,13 @@
 //
 
 #import "PCUContactsListViewController.h"
+#import "PCUContactDetailViewController.h"
 #import "PCUContactCell.h"
 #import "PCUContact.h"
 
 @interface PCUContactsListViewController ()
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -19,9 +22,9 @@
     NSMutableArray *contactsList;
 }
 
-- (id)initWithStyle:(UITableViewStyle)style
+-(id)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super initWithStyle:style];
+    self = [super initWithCoder:aDecoder];
     if (self) {
         contactsList = [[NSMutableArray alloc] init];
     }
@@ -31,12 +34,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    PCUContact *contact = [[PCUContact alloc] init];
+    
+    contact.name = @"Alberto";
+    contact.phoneNumber = @"639960473";
+    contact.email = @"alberto170693@gmail.com";
+    contact.notes = @"oushgohsdipgdjsipgdipgidohgipdahgb ad daoufghaiog afgoadbfousa fuosabf";
+    
+    [contactsList addObject:contact];
+    
+    contact = [[PCUContact alloc] init];
+    contact.name = @"Jatibum";
+    contact.phoneNumber = @"723423947";
+    contact.email = @"jatibum@gmail.com";
+    contact.notes = @"79gb9f4b9fb49f4 f2497bf4nfipwe few0";
+    
+    [contactsList addObject:contact];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,46 +84,7 @@
     return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -117,8 +92,11 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"contactDetailSegue"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        PCUContact *contact = contactsList[indexPath.row];
+        ((PCUContactDetailViewController*) segue.destinationViewController).contact = contact;
+    }
 }
-
- */
 
 @end
