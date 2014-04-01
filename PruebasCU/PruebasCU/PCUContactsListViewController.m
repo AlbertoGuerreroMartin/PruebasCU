@@ -19,14 +19,14 @@
 
 @implementation PCUContactsListViewController
 {
-    NSMutableArray *contactsList;
-}
+    
+    }
 
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        contactsList = [[NSMutableArray alloc] init];
+        _contactsList = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -42,7 +42,7 @@
     contact.email = @"alberto170693@gmail.com";
     contact.notes = @"oushgohsdipgdjsipgdipgidohgipdahgb ad daoufghaiog afgoadbfousa fuosabf";
     
-    [contactsList addObject:contact];
+    [_contactsList addObject:contact];
     
     contact = [[PCUContact alloc] init];
     contact.name = @"Jatibum";
@@ -50,7 +50,7 @@
     contact.email = @"jatibum@gmail.com";
     contact.notes = @"79gb9f4b9fb49f4 f2497bf4nfipwe few0";
     
-    [contactsList addObject:contact];
+    [_contactsList addObject:contact];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,7 +70,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return contactsList.count;
+    return _contactsList.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,8 +78,8 @@
     static NSString *CellIdentifier = @"contactCell";
     PCUContactCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.contactName.text = ((PCUContact*)contactsList[indexPath.row]).name;
-    cell.contactPhoneNumber.text = ((PCUContact*)contactsList[indexPath.row]).phoneNumber;
+    cell.contactName.text = ((PCUContact*)_contactsList[indexPath.row]).name;
+    cell.contactPhoneNumber.text = ((PCUContact*)_contactsList[indexPath.row]).phoneNumber;
     
     return cell;
 }
@@ -94,7 +94,7 @@
     // Pass the selected object to the new view controller.
     if ([[segue identifier] isEqualToString:@"contactDetailSegue"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        PCUContact *contact = contactsList[indexPath.row];
+        PCUContact *contact = _contactsList[indexPath.row];
         ((PCUContactDetailViewController*) segue.destinationViewController).contact = contact;
     }
 }

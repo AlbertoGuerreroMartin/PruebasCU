@@ -10,4 +10,6 @@
 
 @interface PCUContactsListViewController : UITableViewController
 
+@property NSMutableArray *contactsList;
+
 @end
