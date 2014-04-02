@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewContactViewController : UIViewController
+@interface NewContactViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *nameText;
-
 @property (strong, nonatomic) IBOutlet UITextField *phoneText;
-
 @property (strong, nonatomic) IBOutlet UITextField *emailText;
 @property (strong, nonatomic) IBOutlet UITextView *notesText;
+
+//@property (strong, nonatomic) NSMutableArray *contactsList;
+
 @end

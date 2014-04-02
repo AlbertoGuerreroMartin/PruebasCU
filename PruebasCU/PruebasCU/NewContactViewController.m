@@ -37,7 +37,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+ 
 - (IBAction)AddContactButton:(id)sender {
     
     PCUContact *contact= [[PCUContact alloc]init];
@@ -47,17 +47,35 @@
     contact.email = self.emailText.text;
     contact.notes = self.notesText.text;
     
-    [_contactsList addObject:contact];
+//    [self.contactsList addObject:contact];
     
     [self dismissViewControllerAnimated:YES completion:nil];
-    
-    
-    
-    
 }
 
 - (IBAction)CancelAddContactButton:(id)sender {
     
     [self dismissViewControllerAnimated: YES completion:nil];
 }
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"* * * * * * * * *ViewControllerBase touchesBegan");
+    
+    [self.view endEditing:YES]; // dismiss the keyboard
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField*)textField {
+    [textField resignFirstResponder];
+    
+    if (textField == self.nameText) {
+        [self.phoneText becomeFirstResponder];
+    } else if (textField == self.phoneText) {
+        [self.emailText becomeFirstResponder];
+    } else {
+        [self.notesText becomeFirstResponder];
+    }
+    
+    return NO;
+}
+
+
 @end
