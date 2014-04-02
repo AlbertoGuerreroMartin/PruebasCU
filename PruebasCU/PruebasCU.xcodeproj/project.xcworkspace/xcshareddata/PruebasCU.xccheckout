@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>06FBEA45-B547-41CA-9AB9-523A8FD380CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PruebasCU</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>44636162-34F5-4CCB-8AE8-E279861826A4</key>
+		<string>https://github.com/AlbertoGuerreroMartin/PruebasCU.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PruebasCU/PruebasCU.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>44636162-34F5-4CCB-8AE8-E279861826A4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlbertoGuerreroMartin/PruebasCU.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>44636162-34F5-4CCB-8AE8-E279861826A4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>44636162-34F5-4CCB-8AE8-E279861826A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PruebasCU</string>
+		</dict>
+	</array>
+</dict>
+</plist>
