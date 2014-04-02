@@ -139,7 +139,7 @@
         <!--New Contact View Controller - eee-->
         <scene sceneID="T8i-gZ-oYe">
             <objects>
-                <viewController title="eee" id="r3m-8K-bnc" customClass="NewContactViewController" sceneMemberID="viewController">
+                <viewController title="eee" id="r3m-8K-bnc" customClass="PCUNewContactViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lJB-wx-uIV"/>
                         <viewControllerLayoutGuide type="bottom" id="Nwd-7b-x1C"/>

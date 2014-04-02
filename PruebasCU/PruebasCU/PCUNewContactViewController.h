@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewContactViewController : UIViewController <UITextFieldDelegate>
+@interface PCUNewContactViewController : UIViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *nameText;
 @property (strong, nonatomic) IBOutlet UITextField *phoneText;

@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 self.edu. All rights reserved.
 //
 
-#import "NewContactViewController.h"
+#import "PCUNewContactViewController.h"
 #import "PCUContact.h"
 #import "PCUContactsListViewController.h"
 
 
-@interface NewContactViewController ()
+@interface PCUNewContactViewController ()
 
 @end
 
-@implementation NewContactViewController
+@implementation PCUNewContactViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
