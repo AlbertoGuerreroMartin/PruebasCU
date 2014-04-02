@@ -15,6 +15,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *emailText;
 @property (strong, nonatomic) IBOutlet UITextView *notesText;
 
-//@property (strong, nonatomic) NSMutableArray *contactsList;
+@property (strong, nonatomic) NSMutableArray *contactsList;
 
 @end

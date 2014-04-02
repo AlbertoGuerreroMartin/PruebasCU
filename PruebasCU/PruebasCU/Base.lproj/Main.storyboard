@@ -124,7 +124,7 @@
                     <navigationItem key="navigationItem" title="Contact List" id="Sqg-wU-MOA">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="juB-L9-WB6">
                             <connections>
-                                <segue destination="r3m-8K-bnc" kind="modal" id="xbD-XA-bVP"/>
+                                <segue destination="r3m-8K-bnc" kind="modal" identifier="newContactSegue" id="xbD-XA-bVP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

@@ -8,6 +8,7 @@
 
 #import "PCUContactsListViewController.h"
 #import "PCUContactDetailViewController.h"
+#import "PCUNewContactViewController.h"
 #import "PCUContactCell.h"
 #import "PCUContact.h"
 
@@ -29,6 +30,11 @@
         _contactsList = [[NSMutableArray alloc] init];
     }
     return self;
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [self.tableView reloadData];
+    [self.tableView reloadInputViews];
 }
 
 - (void)viewDidLoad
@@ -96,6 +102,8 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         PCUContact *contact = _contactsList[indexPath.row];
         ((PCUContactDetailViewController*) segue.destinationViewController).contact = contact;
+    } else if ([[segue identifier] isEqualToString:@"newContactSegue"]) {
+        ((PCUNewContactViewController*) segue.destinationViewController).contactsList = self.contactsList;
     }
 }
 

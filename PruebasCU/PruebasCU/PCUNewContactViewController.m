@@ -47,7 +47,7 @@
     contact.email = self.emailText.text;
     contact.notes = self.notesText.text;
     
-//    [self.contactsList addObject:contact];
+    [self.contactsList addObject:contact];
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -58,8 +58,6 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    NSLog(@"* * * * * * * * *ViewControllerBase touchesBegan");
-    
     [self.view endEditing:YES]; // dismiss the keyboard
 }
 
