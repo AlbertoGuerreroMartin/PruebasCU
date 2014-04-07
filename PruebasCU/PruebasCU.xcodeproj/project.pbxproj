@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE05F69918EB13CD00BCB68F /* PCUNewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE05F69818EB13CD00BCB68F /* PCUNewContactViewController.m */; };
 		EC2D320A18E9B16300DE29EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320918E9B16300DE29EE /* Foundation.framework */; };
 		EC2D320C18E9B16300DE29EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320B18E9B16300DE29EE /* CoreGraphics.framework */; };
 		EC2D320E18E9B16300DE29EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D320D18E9B16300DE29EE /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE05F69718EB13CD00BCB68F /* PCUNewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCUNewContactViewController.h; sourceTree = "<group>"; };
+		BE05F69818EB13CD00BCB68F /* PCUNewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCUNewContactViewController.m; sourceTree = "<group>"; };
 		EC2D320618E9B16300DE29EE /* PruebasCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2D320918E9B16300DE29EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC2D320B18E9B16300DE29EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,6 +181,8 @@
 				EC2D324418E9B83C00DE29EE /* PCUContactsListViewController.m */,
 				EC2D328E18E9C19A00DE29EE /* PCUContactDetailViewController.h */,
 				EC2D328F18E9C19A00DE29EE /* PCUContactDetailViewController.m */,
+				BE05F69718EB13CD00BCB68F /* PCUNewContactViewController.h */,
+				BE05F69818EB13CD00BCB68F /* PCUNewContactViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				EC2D321618E9B16300DE29EE /* main.m in Sources */,
 				EC2D321A18E9B16300DE29EE /* PCUAppDelegate.m in Sources */,
 				EC2D324118E9B5C900DE29EE /* PCUContact.m in Sources */,
+				BE05F69918EB13CD00BCB68F /* PCUNewContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
