@@ -21,7 +21,7 @@
 @implementation PCUContactsListViewController
 {
     
-    }
+}
 
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
